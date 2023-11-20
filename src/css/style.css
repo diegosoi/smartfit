@@ -170,7 +170,7 @@ h1{
     color: #dcd8d8;
 }
 
-.botoesDehorarios{
+.botoesDehorariosdois{
     width: 200px;
     height: 40px;
     transition: ease-in-out 0.2s;
@@ -180,7 +180,7 @@ h1{
     cursor: pointer;
 }
 
-.botoesDehorariosdois{
+.botoesDehorarios{
     background-color:  #FFB612;
     transform: 0.2s;
     border: none;
