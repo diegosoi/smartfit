@@ -180,7 +180,7 @@ h1{
     cursor: pointer;
 }
 
-.botoesDehorariosdois{
+.botoesDehorarios:hover{
     background-color:  #FFB612;
     transform: 0.2s;
     border: none;
