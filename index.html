@@ -37,19 +37,19 @@
         <div class="relogio">
 
         
-        <img src="./src/img/icon-hour.png" class="fotooRelogio">
+        <img src="./src/img/icon-hour.png" class="fotoDoRelogio">
         <p class="textoDoRelogio">Horário</p>
         </div>
 <form>
     <br>
     <label for="horarios" >Qual período quer treinar?<hr><br></br></label>
     
-<input type="radio" for="horarios" > Manhã</input><label class="posicionamentoDoHorario" >06:00 às 12:00</label>
+<input type="radio" for="horarios" name="oi" > Manhã</input><label class="posicionamentoDoHorario" >06:00 às 12:00</label>
 <hr><br>
     
-<input type="radio" for="horarios" > Tarde</input><label class="posicionamentoDoHorario"> 12:01 às 18:00</label> 
+<input type="radio" for="horarios" name="oi" > Tarde</input><label class="posicionamentoDoHorario"> 12:01 às 18:00</label> 
 <hr><br>
-<input type="radio"for="horarios" > Noite</input><label class="posicionamentoDoHorario" >    18:01 às 23:00</label>   
+<input type="radio"for="horarios" name="oi" > Noite</input><label class="posicionamentoDoHorario" >    18:01 às 23:00</label>   
 <hr>
 <br><br>
 
@@ -58,7 +58,7 @@
 <br><br><br>
 <div class="listaDeBotoes">
 <button class="botoesDehorarios" type="submit">ENCONTRAR UNIDADE</button>
-<button class="botoesDehorarios" type="reset">LIMPAR</button>
+<button class="botoesDehorariosdois" type="reset">LIMPAR</button>
 </div>
 </form>
 
@@ -71,9 +71,9 @@
 
 <ul>
     <li>
-        <p class="CorDoEquipamento">Mascara</p>
+        <p class="corDoEquipamento">Mascara</p>
 
-     <div class="equipementosFotos">
+     <div class="fotosDosEquipamentos">
         <img src="./src/img/required-mask.png" class="fotos" >
        
         <img src="./src/img/recommended-mask.png" class="fotos">
@@ -85,8 +85,8 @@
      </div></li>
 
     <li>
-        <p class="CorDoEquipamento">Toalha</p>  
-        <div class="fotoDosEquipamentos">
+        <p class="corDoEquipamento">Toalha</p>  
+        <div class="fotosDosEquipamentos">
             <img src="./src/img/required-towel.png" class="fotos" >         
             <img src="./src/img/recommended-towel.png" class="fotos">          
          </div>
@@ -95,9 +95,9 @@
             <p>Recomendado</p>
          </div>
     </li>
-    <li>cor
-        <p class="CorDoEquipamento">Bebedouros</p>     
-        <div class="fotoDosEquipamentos">
+    <li>
+        <p class="corDoEquipamento">Bebedouros</p>     
+        <div class="fotosDosEquipamentos">
             <img src="./src/img/partial-fountain.png" class="fotos" >
             <img src="./src/img/forbidden-fountain.png" class="fotos">
          </div>
@@ -108,7 +108,6 @@
     </li>
     <li>
         <p class="corDoEquipamento">Vestiarios</p>
-        
         <div class="fotosDosEquipementos">
             <img src="./src/img/required-lockerroom.png" class="fotos" >
             <img src="./src/img/partial-lockerroom.png" class="fotos">
