@@ -7,13 +7,15 @@
 .cabecarioEInfomarcoes{
     margin: 20px;
 }
+
 body{
   font-family:Arial, Helvetica, sans-serif;  /* Trocar a fonte depois*/
-  
 }
+
 main{
     margin:20px;
 }
+
 .cabecalho{
     background-color: #333333;
     display: flex;
@@ -22,6 +24,7 @@ main{
     margin-top: -20px;
     
 }
+
 .cabecalhoLogo{
     height:60px;
    display:block;
@@ -33,14 +36,12 @@ main{
     height: 120px;
 }
 
-
 footer{
     background-color: #808080;
     display: flex;
     flex-direction: column;
     align-items: center;
 }
-
 
 .creditosDoFooter{
   position: relative;
@@ -54,43 +55,36 @@ footer{
     background-color: #333333;
 }
 
-
 ul{
   width: 890px;
     background-color: #dcd8d8;
     height: 150px;
     list-style: none;
     display: flex;
-    gap: 5px;
-   
+    gap: 5px; 
     overflow: hidden;
    justify-content: center;
 }
 
 li{
     margin: 10px;
-    
-    
     height: 120px;
     width: 200px;
     text-align: center;
-
-
 }
+
 .listaDeEquipamentos{
     display: flex;
-    justify-content: center;
-    
+    justify-content: center; 
 }
+
 .fotosDosEquipamentos{
     display: flex;
     justify-content: space-around;
     padding: 10PX;
-
 }
 
 .fotos{
-
     width:50px;
     height: 50px;
 }
@@ -98,12 +92,9 @@ li{
 .listaDeRecomendacao{
     display: flex;
     justify-content: space-around;
- 
-   
 }
 
 .locaisDisponiveis{
- 
     height: 363px;
     width: 100%px;
     display: flex;
@@ -111,6 +102,7 @@ li{
     justify-content: center;
     overflow: hidden;
 }
+
 .localDasInformacoes{
     padding: 10px;
     width: 268px;
@@ -123,8 +115,8 @@ li{
 .localDestrancado{
     color: #2FC022;
     font-weight:1000;
-
 }
+
 .localTrancado{
 color: #dc0a17;
 font-weight:1000;
@@ -138,8 +130,8 @@ font-weight:1000;
 .listadeImagemsEquipamentosEmLocaisDisponiveis{
   display: flex;
   justify-content: space-around;
- 
 }
+
 .imagemsEquipamentosEmLocaisDisponiveis{
     width: 50px;
     height: 50px;
@@ -161,9 +153,6 @@ h1{
     width: 870px;
     border:5px solid #dcd8d8;
     border-radius: 10px ;
-    
-   
-
 }
 
 #horariosCorTexto{
@@ -183,16 +172,13 @@ h1{
 .botoesDehorarios{
     background-color:  #FFB612;
     transform: 0.2s;
-    border: none;
-
-    
+    border: none;  
 }
 
 .listaDeBotoes{
     display: flex;
     justify-content: center;
     gap:20px;
-
 }
 
 .fotoDoRelogio{
@@ -202,7 +188,6 @@ h1{
 
 .relogio{
     display: flex;
-   
 }
 
 .textoDoRelogio{
@@ -214,15 +199,12 @@ h1{
 .conteudo{
     display: flex;
     flex-direction: column;
-   
     align-items: center;
-    
 }
 
 .posicionamentoDoHorario{
     position: absolute;
     left: 1240px;
-    
 }
 
 .resultadosEncontrados{
@@ -233,7 +215,6 @@ h1{
     display: flex;
   justify-content: center;
   align-items: center;
-
   width: 900px;
 }
 
@@ -241,8 +222,7 @@ h1{
     display: flex;
     align-items: center;
     justify-content: center;
-    position: relative;
-  
+    position: relative; 
 }
 
 #alinharTextosNoHeader{
